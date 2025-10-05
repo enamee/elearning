@@ -198,7 +198,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic1.jpg')}}">
+                                                src="{{asset('images/profile/education/pic1.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Dr sultads Send you Photo</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -210,7 +210,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic2.jpg')}}">
+                                                src="{{asset('images/profile/education/pic2.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Resport created successfully</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -222,7 +222,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic3.jpg')}}">
+                                                src="{{asset('images/profile/education/pic3.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Reminder : Treatment Time!</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -234,7 +234,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic4.jpg')}}">
+                                                src="{{asset('images/profile/education/pic4.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Dr sultads Send you Photo</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -246,7 +246,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic5.jpg')}}">
+                                                src="{{asset('images/profile/education/pic5.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Resport created successfully</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -258,7 +258,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic6.jpg')}}">
+                                                src="{{asset('images/profile/education/pic6.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Reminder : Treatment Time!</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -270,7 +270,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic7.jpg')}}">
+                                                src="{{asset('images/profile/education/pic7.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Dr sultads Send you Photo</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -282,7 +282,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic8.jpg')}}">
+                                                src="{{asset('images/profile/education/pic8.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Resport created successfully</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -294,7 +294,7 @@
                                         <a class="timeline-panel text-muted mb-3 d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic9.jpg')}}">
+                                                src="{{asset('images/profile/education/pic9.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Reminder : Treatment Time!</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -306,7 +306,7 @@
                                         <a class="timeline-panel text-muted d-flex align-items-center"
                                             href="javascript:void(0);">
                                             <img class="rounded-circle" alt="image" width="50"
-                                                src="{{asset('public/images/profile/education/pic10.jpg')}}">
+                                                src="{{asset('images/profile/education/pic10.jpg')}}">
                                             <div class="col">
                                                 <h5 class="mb-1">Dr sultads Send you Photo</h5>
                                                 <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -343,7 +343,7 @@
                                                     <div class="media d-flex align-items-center">
                                                         <div class="avatar avatar-xl mr-2">
                                                             <img class="rounded-circle img-fluid"
-                                                                src="{{asset('public/images/avatar/5.png')}}" width="30"
+                                                                src="{{asset('images/avatar/5.png')}}" width="30"
                                                                 alt="">
                                                         </div>
                                                         <div class="media-body">
@@ -369,7 +369,7 @@
                                                     <div class="media d-flex align-items-center">
                                                         <div class="avatar avatar-xl mr-2">
                                                             <img class="rounded-circle img-fluid"
-                                                                src="{{asset('public/images/avatar/1.png')}}" alt=""
+                                                                src="{{asset('images/avatar/1.png')}}" alt=""
                                                                 width="30">
                                                         </div>
                                                         <div class="media-body">
@@ -395,7 +395,7 @@
                                                     <div class="media d-flex align-items-center">
                                                         <div class="avatar avatar-xl mr-2">
                                                             <img class="rounded-circle img-fluid"
-                                                                src="{{asset('public/images/avatar/5.png')}}" width="30"
+                                                                src="{{asset('images/avatar/5.png')}}" width="30"
                                                                 alt="">
                                                         </div>
                                                         <div class="media-body">
@@ -421,7 +421,7 @@
                                                     <div class="media d-flex align-items-center">
                                                         <div class="avatar avatar-xl mr-2">
                                                             <img class="rounded-circle img-fluid"
-                                                                src="{{asset('public/images/avatar/1.png')}}" alt=""
+                                                                src="{{asset('images/avatar/1.png')}}" alt=""
                                                                 width="30">
                                                         </div>
                                                         <div class="media-body">
@@ -447,7 +447,7 @@
                                                     <div class="media d-flex align-items-center">
                                                         <div class="avatar avatar-xl mr-2">
                                                             <img class="rounded-circle img-fluid"
-                                                                src="{{asset('public/images/avatar/1.png')}}" alt=""
+                                                                src="{{asset('images/avatar/1.png')}}" alt=""
                                                                 width="30">
                                                         </div>
                                                         <div class="media-body">
@@ -473,7 +473,7 @@
                                                     <div class="media d-flex align-items-center">
                                                         <div class="avatar avatar-xl mr-2">
                                                             <img class="rounded-circle img-fluid"
-                                                                src="{{asset('public/images/avatar/5.png')}}" width="30"
+                                                                src="{{asset('images/avatar/5.png')}}" width="30"
                                                                 alt="">
                                                         </div>
                                                         <div class="media-body">
@@ -499,7 +499,7 @@
                                                     <div class="media d-flex align-items-center">
                                                         <div class="avatar avatar-xl mr-2">
                                                             <img class="rounded-circle img-fluid"
-                                                                src="{{asset('public/images/avatar/1.png')}}" alt=""
+                                                                src="{{asset('images/avatar/1.png')}}" alt=""
                                                                 width="30">
                                                         </div>
                                                         <div class="media-body">

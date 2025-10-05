@@ -72,7 +72,7 @@
                                                 </td>
                                                 <td>
                                                     <embed
-                                                        src="{{asset('public/uploads/courses/contents/'.$m->content)}}"
+                                                        src="{{asset('uploads/courses/contents/'.$m->content)}}"
                                                         width="200px" height="100px" />
                                                 </td>
                                                 <td>{{$m->content_url}}</td>

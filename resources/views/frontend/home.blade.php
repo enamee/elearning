@@ -57,7 +57,7 @@
                 <div class="browse-categories-item default-item-one mb-2">
                     <div class="browse-categories-item-icon">
                         <div class="categories-one default-categories">
-                            <img src="{{asset('public/uploads/courseCategories/'.$cat->category_image)}}"
+                            <img src="{{asset('uploads/courseCategories/'.$cat->category_image)}}"
                                 class="rounded-circle" width="80" height="80" alt="">
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="contentCard contentCard--course">
                                 <div class="contentCard-top">
-                                    <a href="#"><img src="{{asset('public/uploads/courses/'.$pc->image)}}" alt="images"
+                                    <a href="#"><img src="{{asset('uploads/courses/'.$pc->image)}}" alt="images"
                                             class="img-fluid" /></a>
                                 </div>
                                 <div class="contentCard-bottom">
@@ -153,7 +153,7 @@
                                     <div class="contentCard-info d-flex align-items-center justify-content-between">
                                         <a href="{{route('instructorProfile', encryptor('encrypt', $pc->instructor?->id))}}"
                                             class="contentCard-user d-flex align-items-center">
-                                            <img src="{{asset('public/uploads/users/'.$pc?->instructor->image)}}"
+                                            <img src="{{asset('uploads/users/'.$pc?->instructor->image)}}"
                                                 alt="client-image" class="rounded-circle" height="34" width="34" />
                                             <p class="font-para--md">{{$pc?->instructor->name_en}}</p>
                                         </a>
@@ -216,7 +216,7 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="contentCard contentCard--course">
                                 <div class="contentCard-top">
-                                    <a href="#"><img src="{{asset('public/uploads/courses/'.$dc->image)}}" alt="images" class="img-fluid" /></a>
+                                    <a href="#"><img src="{{asset('uploads/courses/'.$dc->image)}}" alt="images" class="img-fluid" /></a>
                                 </div>
                                 <div class="contentCard-bottom">
                                     <h5>
@@ -226,7 +226,7 @@
                                     <div class="contentCard-info d-flex align-items-center justify-content-between">
                                         <a href="{{route('instructorProfile', encryptor('encrypt', $dc->instructor?->id))}}"
                                             class="contentCard-user d-flex align-items-center">
-                                            <img src="{{asset('public/uploads/users/'.$dc?->instructor->image)}}" alt="client-image"
+                                            <img src="{{asset('uploads/users/'.$dc?->instructor->image)}}" alt="client-image"
                                                 class="rounded-circle" height="34" width="34" />
                                             <p class="font-para--md">{{$dc?->instructor->name_en}}</p>
                                         </a>
@@ -285,7 +285,7 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="contentCard contentCard--course">
                                 <div class="contentCard-top">
-                                    <a href="#"><img src="{{asset('public/uploads/courses/'.$dv->image)}}" alt="images"
+                                    <a href="#"><img src="{{asset('uploads/courses/'.$dv->image)}}" alt="images"
                                             class="img-fluid" /></a>
                                 </div>
                                 <div class="contentCard-bottom">
@@ -296,7 +296,7 @@
                                     <div class="contentCard-info d-flex align-items-center justify-content-between">
                                         <a href="{{route('instructorProfile', encryptor('encrypt', $dv->instructor?->id))}}"
                                             class="contentCard-user d-flex align-items-center">
-                                            <img src="{{asset('public/uploads/users/'.$dv?->instructor->image)}}" alt="client-image"
+                                            <img src="{{asset('uploads/users/'.$dv?->instructor->image)}}" alt="client-image"
                                                 class="rounded-circle" height="34" width="34" />
                                             <p class="font-para--md">{{$dv?->instructor->name_en}}</p>
                                         </a>
@@ -355,7 +355,7 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="contentCard contentCard--course">
                                 <div class="contentCard-top">
-                                    <a href="#"><img src="{{asset('public/uploads/courses/'.$bc->image)}}" alt="images"
+                                    <a href="#"><img src="{{asset('uploads/courses/'.$bc->image)}}" alt="images"
                                             class="img-fluid" /></a>
                                 </div>
                                 <div class="contentCard-bottom">
@@ -366,7 +366,7 @@
                                     <div class="contentCard-info d-flex align-items-center justify-content-between">
                                         <a href="{{route('instructorProfile', encryptor('encrypt', $bc->instructor?->id))}}"
                                             class="contentCard-user d-flex align-items-center">
-                                            <img src="{{asset('public/uploads/users/'.$bc?->instructor->image)}}" alt="client-image"
+                                            <img src="{{asset('uploads/users/'.$bc?->instructor->image)}}" alt="client-image"
                                                 class="rounded-circle" height="34" width="34" />
                                             <p class="font-para--md">{{$bc?->instructor->name_en}}</p>
                                         </a>
@@ -425,7 +425,7 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="contentCard contentCard--course">
                                 <div class="contentCard-top">
-                                    <a href="#"><img src="{{asset('public/uploads/courses/'.$ic->image)}}" alt="images"
+                                    <a href="#"><img src="{{asset('uploads/courses/'.$ic->image)}}" alt="images"
                                             class="img-fluid" /></a>
                                 </div>
                                 <div class="contentCard-bottom">
@@ -436,7 +436,7 @@
                                     <div class="contentCard-info d-flex align-items-center justify-content-between">
                                         <a href="{{route('instructorProfile', encryptor('encrypt', $ic->instructor?->id))}}"
                                             class="contentCard-user d-flex align-items-center">
-                                            <img src="{{asset('public/uploads/users/'.$ic?->instructor->image)}}" alt="client-image"
+                                            <img src="{{asset('uploads/users/'.$ic?->instructor->image)}}" alt="client-image"
                                                 class="rounded-circle" height="34" width="34" />
                                             <p class="font-para--md">{{$ic?->instructor->name_en}}</p>
                                         </a>
@@ -1011,7 +1011,7 @@
                     @forelse ($course as $c)
                     <div class="contentCard contentCard--event contentCard--space">
                         <div class="contentCard-top">
-                            <a href="#"><img src="{{asset('public/uploads/courses/'.$c->image)}}" alt="images"
+                            <a href="#"><img src="{{asset('uploads/courses/'.$c->image)}}" alt="images"
                                     class="img-fluid" /></a>
                         </div>
                         <div class="contentCard-bottom">

@@ -62,7 +62,7 @@
                                     <div class="card-body pt-2">
                                         <div class="text-center">
                                             <div class="">
-                                                <img src="{{asset('public/uploads/courses/'.$d->image)}}" class="w-100"
+                                                <img src="{{asset('uploads/courses/'.$d->image)}}" class="w-100"
                                                     height="200" alt="">
                                             </div>
                                             <h3 class="mt-4 mb-1">{{$d->title_en}}</h3>

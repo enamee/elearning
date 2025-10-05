@@ -71,7 +71,7 @@
                                                 </td>
                                                 <td>
                                                     <img class="rounded" width="200" height="100"
-                                                        src="{{asset('public/uploads/courseCategories/'.$d->category_image)}}"
+                                                        src="{{asset('uploads/courseCategories/'.$d->category_image)}}"
                                                         alt="">
                                                 </td>
                                                 <td>
@@ -123,7 +123,7 @@
                                     <div class="card-body pt-2">
                                         <div class="text-center">
                                             <div class="profile-photo">
-                                                <img src="{{asset('public/uploads/courseCategories/'.$d->category_image)}}"
+                                                <img src="{{asset('uploads/courseCategories/'.$d->category_image)}}"
                                                     class="w-100" alt="">
                                             </div>
                                             <h3 class="mt-4 mb-1">{{$d->category_name}}</h3>

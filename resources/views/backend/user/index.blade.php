@@ -63,7 +63,7 @@
                                             @forelse ($data as $d)
                                             <tr>
                                                 <td><img class="rounded-circle" width="35" height="35"
-                                                        src="{{asset('public/uploads/users/'.$d->image)}}" alt=""></td>
+                                                        src="{{asset('uploads/users/'.$d->image)}}" alt=""></td>
                                                 <td><strong>{{$d->name_en}}</strong></td>
                                                 <td>{{$d->email}}</td>
                                                 <td>{{$d->contact_en}}</td>
@@ -127,7 +127,7 @@
                                     <div class="card-body pt-2">
                                         <div class="text-center">
                                             <div class="profile-photo">
-                                                <img src="{{asset('public/uploads/users/'.$d->image)}}" width="100"
+                                                <img src="{{asset('uploads/users/'.$d->image)}}" width="100"
                                                     height="100" class="rounded-circle" alt="">
                                             </div>
                                             <h3 class="mt-4 mb-1">{{$d->name_en}}</h3>

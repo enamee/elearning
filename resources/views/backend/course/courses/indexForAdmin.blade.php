@@ -53,7 +53,7 @@
                                         <tbody>
                                             @forelse ($course as $d)
                                             <tr>
-                                                <td><img class="img fluid" width="100" src="{{asset('public/uploads/courses/'.$d->image)}}" alt="">
+                                                <td><img class="img fluid" width="100" src="{{asset('uploads/courses/'.$d->image)}}" alt="">
                                             </td>
                                                 <td><strong>{{$d->title_en}}</strong></td>
                                                 <td><strong>{{$d->instructor?->name_en}}</strong></td>

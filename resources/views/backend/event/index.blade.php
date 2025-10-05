@@ -55,7 +55,7 @@
                                         <tbody>
                                             @forelse ($event as $e)
                                             <tr>
-                                                <td><img src="{{asset('public/uploads/events/'.$e->image)}}"
+                                                <td><img src="{{asset('uploads/events/'.$e->image)}}"
                                                         class="w-100" height="50"></td>
                                                 <td><strong>{{$e->title}}</strong></td>
                                                 <td><strong>{{$e->topic}}</strong></td>

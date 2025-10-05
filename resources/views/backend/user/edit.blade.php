@@ -3,7 +3,7 @@
 
 @push('styles')
 <!-- Favicon icon -->
-<link rel="icon" type="image/png" sizes="16x16" href="{{asset('public/images/favicon.png')}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{asset('images/favicon.png')}}">
 <link rel="stylesheet" href="{{asset('vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}">
 <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
