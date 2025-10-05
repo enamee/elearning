@@ -2,9 +2,9 @@
 @section('title', 'Instructor Dashboard') 
 
 @push('styles')
-<link rel="stylesheet" href="{{asset('public/vendor/jqvmap/css/jqvmap.min.css')}}">
-<link rel="stylesheet" href="{{asset('public/vendor/chartist/css/chartist.min.css')}}">
-<link rel="stylesheet" href="{{asset('public/css/skin-2.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/jqvmap/css/jqvmap.min.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/chartist/css/chartist.min.css')}}">
+<link rel="stylesheet" href="{{asset('css/skin-2.css')}}">
 @endpush
 
 @section('content')

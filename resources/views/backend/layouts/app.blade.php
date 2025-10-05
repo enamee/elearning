@@ -10,7 +10,7 @@
 
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('images/favicon.png')}}">
-    <link rel="stylesheet" href="{{asset('public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}">
+    <link rel="stylesheet" href="{{asset('vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}">
     <!-- <link rel="stylesheet" href="{{asset('public/css/style.css')}}"> -->
     @vite(['public/css/style.css'])
 
