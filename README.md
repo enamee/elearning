@@ -39,9 +39,20 @@ The Online Learning Management System is an eLearning platform built using Larav
 To get started with the project, follow these steps:
 
 1. Clone the repository.
-2. Install dependencies using `composer install`.
-3. Configure the database settings in the `.env` file.
-4. Start the development server with `php artisan serve`.
+2. Install dependencies `composer install` (If composer not install, install first).
+3. Copy the `.env.example` file to `.env` or rename the file to `.env`.
+4. Configure the database settings in the `.env` file.
+5. Generate application key `php artisan key:generate`.
+6. Start XAMPP Apache server and MySQL service.
+7. Create only the database with the same name as the one in `.env` file.
+8. Run the migrations `php artisan migrate`.
+9. Run `php artisan db:seed` or `php artisan migrate --seed`.
+10. Set up front-end assets `npm install` (Install node.js if not installed).
+11. Then run `npm run dev`. Do not close this terminal.
+12. Open a new terminal and start the development server `php artisan serve`.
+13. Go to the address the server running on, usually 127.0.0.1:8000 or localhost:8000
+14. To get into admin page, create an account and then manually change "full_access" attribute value from 0 to 1 
+    by going to the users table and editing in the database directly. Then after login you have all controls.
 
 ## Contributing
 
