@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ENV('APP_NAME')}} | @yield('title', 'Home')</title>
-    <link rel="stylesheet" href="{{asset('public/frontend/dist/main.css')}}" />
-    <link rel="icon" type="image/png" href="{{asset('public/frontend/dist/images/favicon/favicon.png')}}" />
-    <link rel="stylesheet" href="{{asset('public/frontend/fontawesome-free-5.15.4-web/css/all.min.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('public/frontend/dist/main.css')}}" /> -->
+    @vite(['public/frontend/dist/main.css'])
+    <link rel="icon" type="image/png" href="{{asset('frontend/dist/images/favicon/favicon.png')}}" />
+    <link rel="stylesheet" href="{{asset('frontend/fontawesome-free-5.15.4-web/css/all.min.css')}}">
     <style>
         .dropdown {
             position: relative;
@@ -54,7 +55,7 @@
             <div class="container">
                 <!-- Logo -->
                 <a class="navbar-brand" href="{{route('home')}}">
-                    <img src="{{asset('public/frontend/dist/images/logo/logo.png')}}" alt="Logo" class="img-fluid" />
+                    <img src="{{asset('frontend/dist/images/logo/logo.png')}}" alt="Logo" class="img-fluid" />
                 </a>
                 <button class="menu-icon-container">
                     <span class="menu-icon"></span>
@@ -147,7 +148,7 @@
                     <div>
                         <div class="navbar-mobile__top">
                             <a href="index.html">
-                                <img src="{{asset('public/frontend/dist/images/logo/logo.png')}}" alt="brand"
+                                <img src="{{asset('frontend/dist/images/logo/logo.png')}}" alt="brand"
                                     class="img-fluid" />
                             </a>
                             <div>
@@ -297,7 +298,7 @@
                 <div class="col-lg-6">
                     <div class="footer__wrapper">
                         <div class="footer__wrapper_logo">
-                            <img src="{{asset('public/frontend/dist/images/logo/footerlogo.png')}}" alt="logo"
+                            <img src="{{asset('frontend/dist/images/logo/footerlogo.png')}}" alt="logo"
                                 class="img-fluid" />
                         </div>
                         <p>
@@ -496,14 +497,14 @@
         </div>
     </footer>
 
-    <script src="{{asset('public/frontend/src/js/jquery.min.js')}}"></script>
-    <script src="{{asset('public/frontend/src/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('public/frontend/src/scss/vendors/plugin/js/isotope.pkgd.min.js')}}"></script>
-    <script src="{{asset('public/frontend/src/scss/vendors/plugin/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('public/frontend/src/scss/vendors/plugin/js/slick.min.js')}}"></script>
-    <script src="{{asset('public/frontend/src/scss/vendors/plugin/js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{asset('public/frontend/src/js/app.js')}}"></script>
-    <script src="{{asset('public/frontend/dist/main.js')}}"></script>
+    <script src="{{asset('frontend/src/js/jquery.min.js')}}"></script>
+    <script src="{{asset('frontend/src/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('frontend/src/scss/vendors/plugin/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('frontend/src/scss/vendors/plugin/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('frontend/src/scss/vendors/plugin/js/slick.min.js')}}"></script>
+    <script src="{{asset('frontend/src/scss/vendors/plugin/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('frontend/src/js/app.js')}}"></script>
+    <script src="{{asset('frontend/dist/main.js')}}"></script>
 
     <script>
         function toggleDropdown(event) {
